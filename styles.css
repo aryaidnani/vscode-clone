@@ -80,24 +80,14 @@ button {
   color: #9d9d9d;
 }
 
-.content {
-  width: 100%;
-  display: flex;
-  border-bottom: 1px solid grey;
-}
-
 .main-content {
-  display: flex;
+  display: grid;
+  justify-items: center;
   align-items: center;
-  margin: 32px auto;
-  margin-bottom: 96px;
-  max-width: 1320px;
+  grid-template-columns: 1fr 2fr;
 }
 
 .heading {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
   padding: 32px 40px;
 }
 
@@ -146,9 +136,4 @@ button {
 .terms a:visited {
   color: #4daafc;
   text-decoration: underline;
-}
-
-.hero-img {
-  max-width: 800px;
-  height: auto;
 }
